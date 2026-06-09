@@ -8,3 +8,22 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment variables — NEVER commit this
+.env
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
